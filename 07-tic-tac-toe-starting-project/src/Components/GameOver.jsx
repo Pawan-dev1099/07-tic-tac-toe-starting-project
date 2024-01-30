@@ -7,7 +7,7 @@ function GameOver({winner , onRestart}) {
       { winner &&<p>{winner} Won!</p>}
       { !winner &&<p>It's a Draw</p>}
        <p>
-       <button onclick={handleRe}>Rematch!</button>
+       <button onClick={onRestart}>Rematch!</button>
        </p>
 
     </div>
